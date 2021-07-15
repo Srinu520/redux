@@ -1,0 +1,6 @@
+export const postActionTypes = {
+  FETCH_POSTS: "FETCH_POSTS",
+  UPDATE_POST: "UPDATE_POST",
+  DELETE_POST: "DELETE_POST",
+  ADD_POST: "ADD_POST",
+};
