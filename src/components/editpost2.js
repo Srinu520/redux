@@ -31,18 +31,7 @@ function EditPost2() {
   const onEditPost = (e) => {
     e.preventDefault();
     console.log("updating post");
-    // axios
-    //   .put(`http://localhost:8080/posts/${post.id}`, post)
-    //   .then((responce) => {
-    //     setIsUpdated(true)
-    //     console.log(responce.data)
-    //     setTimeout(()=>{
-    //       history.push('/get')
-    //     },3000)
-    //   })
-    // .catch(error => {
-    //   setIsUpdated(false)
-    // })
+
     dispatch(updateMiddleware(pid, post));
     setTimeout(() => {
       history.push("/");

@@ -30,7 +30,6 @@ function GetPost() {
 
   return (
     <div className="card text-center bg-dark">
-      {/* <button onClick={onGetPost}>click to see all posts</button> */}
       {postsReducer.posts.map((post) => {
         return (
           <div
